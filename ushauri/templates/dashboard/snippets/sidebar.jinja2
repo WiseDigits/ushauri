@@ -1,377 +1,235 @@
-<div id="right-sidebar" class="animated">
-    <div class="sidebar-container">
+<aside id="sidebar" class="sidebar">
 
-        <ul class="nav nav-tabs navs-3">
+    <ul class="sidebar-nav" id="sidebar-nav">
 
-            <li class="active"><a data-toggle="tab" href="#tab-1">
-                Notes
-            </a></li>
-            <li><a data-toggle="tab" href="#tab-2">
-                Projects
-            </a></li>
-            <li class=""><a data-toggle="tab" href="#tab-3">
-                <i class="fa fa-gear"></i>
-            </a></li>
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>Alerts</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-accordion.html">
+              <i class="bi bi-circle"></i><span>Accordion</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-badges.html">
+              <i class="bi bi-circle"></i><span>Badges</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-breadcrumbs.html">
+              <i class="bi bi-circle"></i><span>Breadcrumbs</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-buttons.html">
+              <i class="bi bi-circle"></i><span>Buttons</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-cards.html">
+              <i class="bi bi-circle"></i><span>Cards</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-carousel.html">
+              <i class="bi bi-circle"></i><span>Carousel</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-list-group.html">
+              <i class="bi bi-circle"></i><span>List group</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-modal.html">
+              <i class="bi bi-circle"></i><span>Modal</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-tabs.html">
+              <i class="bi bi-circle"></i><span>Tabs</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-pagination.html">
+              <i class="bi bi-circle"></i><span>Pagination</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-progress.html">
+              <i class="bi bi-circle"></i><span>Progress</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-spinners.html">
+              <i class="bi bi-circle"></i><span>Spinners</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-tooltips.html">
+              <i class="bi bi-circle"></i><span>Tooltips</span>
+            </a>
+          </li>
         </ul>
+      </li><!-- End Components Nav -->
 
-        <div class="tab-content">
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements.html">
+              <i class="bi bi-circle"></i><span>Form Elements</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-layouts.html">
+              <i class="bi bi-circle"></i><span>Form Layouts</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-editors.html">
+              <i class="bi bi-circle"></i><span>Form Editors</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-validation.html">
+              <i class="bi bi-circle"></i><span>Form Validation</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Forms Nav -->
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Data Tables</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
 
-            <div id="tab-1" class="tab-pane active">
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="charts-chartjs.html">
+              <i class="bi bi-circle"></i><span>Chart.js</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>ApexCharts</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>ECharts</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Charts Nav -->
 
-                <div class="sidebar-title">
-                    <h3> <i class="fa fa-comments-o"></i> Latest Notes</h3>
-                    <small><i class="fa fa-tim"></i> You have 10 new message.</small>
-                </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="icons-bootstrap.html">
+              <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-remix.html">
+              <i class="bi bi-circle"></i><span>Remix Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-boxicons.html">
+              <i class="bi bi-circle"></i><span>Boxicons</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Icons Nav -->
 
-                <div>
+      <li class="nav-heading">Pages</li>
 
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a1.jpg">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
 
-                                <div class="m-t-xs">
-                                    <i class="fa fa-star text-warning"></i>
-                                    <i class="fa fa-star text-warning"></i>
-                                </div>
-                            </div>
-                            <div class="media-body">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
 
-                                There are many variations of passages of Lorem Ipsum available.
-                                <br>
-                                <small class="text-muted">Today 4:21 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a2.jpg">
-                            </div>
-                            <div class="media-body">
-                                The point of using Lorem Ipsum is that it has a more-or-less normal.
-                                <br>
-                                <small class="text-muted">Yesterday 2:45 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
 
-                                <div class="m-t-xs">
-                                    <i class="fa fa-star text-warning"></i>
-                                    <i class="fa fa-star text-warning"></i>
-                                    <i class="fa fa-star text-warning"></i>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Mevolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                                <br>
-                                <small class="text-muted">Yesterday 1:10 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
-                            </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-register.html">
+          <i class="bi bi-card-list"></i>
+          <span>Register</span>
+        </a>
+      </li><!-- End Register Page Nav -->
 
-                            <div class="media-body">
-                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
-                                <br>
-                                <small class="text-muted">Monday 8:37 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a8.jpg">
-                            </div>
-                            <div class="media-body">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-login.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Login</span>
+        </a>
+      </li><!-- End Login Page Nav -->
 
-                                All the Lorem Ipsum generators on the Internet tend to repeat.
-                                <br>
-                                <small class="text-muted">Today 4:21 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a7.jpg">
-                            </div>
-                            <div class="media-body">
-                                Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                                <br>
-                                <small class="text-muted">Yesterday 2:45 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-error-404.html">
+          <i class="bi bi-dash-circle"></i>
+          <span>Error 404</span>
+        </a>
+      </li><!-- End Error 404 Page Nav -->
 
-                                <div class="m-t-xs">
-                                    <i class="fa fa-star text-warning"></i>
-                                    <i class="fa fa-star text-warning"></i>
-                                    <i class="fa fa-star text-warning"></i>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.
-                                <br>
-                                <small class="text-muted">Yesterday 1:10 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sidebar-message">
-                        <a href="#">
-                            <div class="pull-left text-center">
-                                <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
-                            </div>
-                            <div class="media-body">
-                                Uncover many web sites still in their infancy. Various versions have.
-                                <br>
-                                <small class="text-muted">Monday 8:37 pm</small>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-blank.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Blank</span>
+        </a>
+      </li><!-- End Blank Page Nav -->
 
-            </div>
+    </ul>
 
-            <div id="tab-2" class="tab-pane">
-
-                <div class="sidebar-title">
-                    <h3> <i class="fa fa-cube"></i> Latest projects</h3>
-                    <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
-                </div>
-
-                <ul class="sidebar-list">
-                    <li>
-                        <a href="#">
-                            <div class="small pull-right m-t-xs">9 hours ago</div>
-                            <h4>Business valuation</h4>
-                            It is a long established fact that a reader will be distracted.
-
-                            <div class="small">Completion with: 22%</div>
-                            <div class="progress progress-mini">
-                                <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
-                            </div>
-                            <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="small pull-right m-t-xs">9 hours ago</div>
-                            <h4>Contract with Company </h4>
-                            Many desktop publishing packages and web page editors.
-
-                            <div class="small">Completion with: 48%</div>
-                            <div class="progress progress-mini">
-                                <div style="width: 48%;" class="progress-bar"></div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="small pull-right m-t-xs">9 hours ago</div>
-                            <h4>Meeting</h4>
-                            By the readable content of a page when looking at its layout.
-
-                            <div class="small">Completion with: 14%</div>
-                            <div class="progress progress-mini">
-                                <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="label label-primary pull-right">NEW</span>
-                            <h4>The generated</h4>
-                            There are many variations of passages of Lorem Ipsum available.
-                            <div class="small">Completion with: 22%</div>
-                            <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="small pull-right m-t-xs">9 hours ago</div>
-                            <h4>Business valuation</h4>
-                            It is a long established fact that a reader will be distracted.
-
-                            <div class="small">Completion with: 22%</div>
-                            <div class="progress progress-mini">
-                                <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
-                            </div>
-                            <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="small pull-right m-t-xs">9 hours ago</div>
-                            <h4>Contract with Company </h4>
-                            Many desktop publishing packages and web page editors.
-
-                            <div class="small">Completion with: 48%</div>
-                            <div class="progress progress-mini">
-                                <div style="width: 48%;" class="progress-bar"></div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="small pull-right m-t-xs">9 hours ago</div>
-                            <h4>Meeting</h4>
-                            By the readable content of a page when looking at its layout.
-
-                            <div class="small">Completion with: 14%</div>
-                            <div class="progress progress-mini">
-                                <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="label label-primary pull-right">NEW</span>
-                            <h4>The generated</h4>
-                            <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
-                            There are many variations of passages of Lorem Ipsum available.
-                            <div class="small">Completion with: 22%</div>
-                            <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <div id="tab-3" class="tab-pane">
-
-                <div class="sidebar-title">
-                    <h3><i class="fa fa-gears"></i> Settings</h3>
-                    <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
-                </div>
-
-                <div class="setings-item">
-                    <span>
-                        Show notifications
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
-                            <label class="onoffswitch-label" for="example">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="setings-item">
-                    <span>
-                        Disable Chat
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" name="collapsemenu" checked class="onoffswitch-checkbox" id="example2">
-                            <label class="onoffswitch-label" for="example2">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="setings-item">
-                    <span>
-                        Enable history
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
-                            <label class="onoffswitch-label" for="example3">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="setings-item">
-                    <span>
-                        Show charts
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
-                            <label class="onoffswitch-label" for="example4">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="setings-item">
-                    <span>
-                        Offline users
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example5">
-                            <label class="onoffswitch-label" for="example5">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="setings-item">
-                    <span>
-                        Global search
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example6">
-                            <label class="onoffswitch-label" for="example6">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="setings-item">
-                    <span>
-                        Update everyday
-                    </span>
-                    <div class="switch">
-                        <div class="onoffswitch">
-                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
-                            <label class="onoffswitch-label" for="example7">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sidebar-content">
-                    <h4>Settings</h4>
-                    <div class="small">
-                        I belive that. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        And typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-
-</div>
+  </aside><!-- End Sidebar-->

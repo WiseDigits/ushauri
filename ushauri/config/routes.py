@@ -123,12 +123,16 @@ def loadRoutes(config):
 
     # FormShare routes
     routes = []
+
     routes.append(addRoute("home", "/", home_view, "landing/index.jinja2"))
+
     routes.append(addRoute("login", "/login", login_view, "dashboard/login.jinja2"))
+
     routes.append(
         addRoute("register", "/register", register_view, "dashboard/register.jinja2")
     )
     routes.append(addRoute("logout", "/logout", logout_view, None))
+
     routes.append(
         addRoute("dashboard", "/dashboard", dashboard_view, "dashboard/index.jinja2")
     )

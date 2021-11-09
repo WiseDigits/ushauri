@@ -15,7 +15,6 @@ import ushauri.resources as r
 
 
 def createResources(apppath, config):
-
     # ----------------Landing page--------------------
     # Add core resource library
     r.addLibrary("landing", os.path.join(apppath, "jsandcss/landing"), config)
@@ -83,3 +82,25 @@ def createResources(apppath, config):
     r.addJSResource(
         "dashboard", "jrecord_worker", "js/plugins/jrecord/recorderWorker.js", None
     )
+
+    # UI-TEMPLATE_RESOURCES
+
+    r.addLibrary("ui", os.path.join(apppath, "jsandcss/ui"), config)
+    r.addCSSResource("ui", "main", "css/style.css")
+    r.addCSSResource("ui", "boostrap", "vendor/bootstrap/css/bootstrap.min.css")
+    r.addCSSResource("ui", "boostrap-icon", "vendor/bootstrap-icons/bootstrap-icons.css")
+    r.addCSSResource("ui", "boxiocon", "vendor/boxicons/css/boxicons.min.css")
+    r.addCSSResource("ui", "datatable", "vendor/simple-datatables/style.css")
+    r.addCSSResource("ui", "quill", "vendor/quill/quill.snow.css")
+    r.addCSSResource("ui", "quill_bubble", "vendor/quill/quill.bubble.css")
+
+    r.addJSResource("ui", "bundle", "vendor/bootstrap/js/bootstrap.bundle.js")
+    r.addJSResource("ui", "validate", "vendor/php-email-form/validate.js")
+    r.addJSResource("ui", "quill", "vendor/quill/quill.min.js")
+    r.addJSResource("ui", "tinymce", "vendor/tinymce/tinymce.min.js")
+    r.addJSResource("ui", "datatable", "vendor/simple-datatables/simple-datatables.js")
+    r.addJSResource("ui", "chart", "vendor/chart.js/chart.min.js")
+    r.addJSResource("ui", "apex", "vendor/apexcharts/apexcharts.min.js")
+    r.addJSResource("ui", "echarts", "vendor/echarts/echarts.min.js")
+    r.addJSResource("ui", "main", "js/main.js")
+
