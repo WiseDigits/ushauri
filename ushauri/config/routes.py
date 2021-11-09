@@ -97,6 +97,7 @@ from ushauri.views.odk import (
 
 route_list = []
 
+
 # This function append or overrides the routes to the main list
 def appendToRoutes(routeList):
     for new_route in routeList:
